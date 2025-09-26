@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Culinary Darjo</title>
+    <link rel="shorcut icon" type="img" href="image/logo.png">
+    <!-- link icons pada bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  </head>
+  <body id="">
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top " id="mainNav" >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="image/imglogo.png" alt=""></a>
+          <a class="navbar-brand" href="index.html"><p class="judul"> Culinary Moment</p></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link js-scroll-trigger" id="home" href="index.html">Home </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#category" role="button" aria-haspopup="true" aria-expanded="false">Category</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="cBreakfast.html">Breakfast</a>
+                    <a class="dropdown-item" href="cLunch.html">Lunch</a>
+                    <a class="dropdown-item" href="cDinner.html">Dinner</a>
+                    <a class="dropdown-item" href="cBeverage.html">Beverage</a>
+                    <a class="dropdown-item" href="cDessert.html">Dessert</a>
+                    <a class="dropdown-item" href="cEventnParty.html">Event and party</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+<!-- start explore food -->
+<section id="explore-food" class="food p-5">
+    <div class="explore-food wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-content text-center">
+              <h2 id="judulf">Explore Our Dinner Foods</h2>
+              <p id="subjudul1">Explore and choose the dinner menu that suits you</p>
+            </div>
+          </div> 
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="image/udang.jpg" class="img-fluid" alt="">
+              <div class="p-4">
+                <h4>Warung Seafood Diponegoro</h4>
+                <p>Time: 20-25 Minutes | Dinner </p>
+                <span>Rp 42.000 <del>Rp 45.000</del></span>
+                <!-- button trigger modal -->
+                <button class="mt-3 btn btn-success" data-toggle="modal" data-target="#menu1">More Information</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="image/nasgor.jpg" class="img-fluid" alt="">
+              <div class="p-4">
+                <h4>Nasi Goreng 69</h4>
+                <p>Time: 15-20 Minutes | Dinner</p>
+                <span>Rp 40.000 <del>Rp 42.000</del></span>
+                <!-- button trigger modal -->
+                <button class="mt-3 btn btn-success " data-toggle="modal" data-target="#menu2">More Information</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="image/sop buntut.jpg" class="img-fluid" alt="">
+              <div class="p-4">
+                <h4>Sop Buntut Depot Langgeng</h4>
+                <p>Time: 15-20 Minutes | Dinner</p>
+                <span>Rp 50.000 <del>Rp 55.000</del></span>
+                <!-- button trigger modal -->
+                <button class="mt-3 btn btn-success" data-toggle="modal" data-target="#menu3">More Information</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end explore food  -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="menu1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle"><h4 class="card-title">Warung Seafood Diponegoro</h4></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="card mb-4 shadow-sm border-0">
+                    <div class="card-body">
+                        <p class="card-text text-center">Menyediakan berbagai menu olahan seafood, salah satunya udang asam manis dengan harga seporsi Rp 42.000 </p>
+                        <p class="card-text">Harga : Rp 42.000 | Per Porsi</p>
+                        <p class="card-text">Nama Owner : - </p>
+                        <p class="card-text">Alamat : Jl. Diponegoro No.122, Kapasan, Sidokare, Kabupaten Sidoarjo, Jawa Timur 61213</p>
+                        <p class="card-text">Jam Buka : Setiap Hari 17.00-23.00 WIB</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="https://wa.me/6289515524051"><button type="button" class="btn btn-outline-success">Whatsapp</button></a>
+                            <a href="https://goo.gl/maps/CYq2WmYhAteE9dC19"><button type="button" class="btn btn-outline-primary">Dapatkan Arah</button></a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="menu2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle"><h4 class="card-title">Nasi Goreng 69</h4></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="card mb-4 shadow-sm border-0">
+                    <div class="card-body">
+                        <p class="card-text text-center">Menyediakan berbagai menu nasi goreng dengan berbagai toping, salah satunya menu nasi goreng ayam yang berisikan nasi dengan ayam fillet.</p>
+                        <p class="card-text">Harga : Rp 40.000 | Per Porsi</p>
+                        <p class="card-text">Nama Owner : Sartomo </p>
+                        <p class="card-text">Alamat : Jl. Pahlawan No.1, Rw 06, Sidokumpul, Sidoarjo, Sidoarjo Regency, Jwa Timur 61212</p>
+                        <p class="card-text">Jam Buka : Setiap Hari 17.00-21.00 WIB</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="https://wa.me/6289515524051"><button type="button" class="btn btn-outline-success">Whatsapp</button></a>
+                            <a href="https://goo.gl/maps/gHwmtJRTN8aQB1928"><button type="button" class="btn btn-outline-primary">Dapatkan Arah</button></a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="menu3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle"><h4 class="card-title">Sop Buntut Depot Langgeng</h4></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="card mb-4 shadow-sm border-0">
+                    <div class="card-body">
+                        <p class="card-text text-center"> Semangkuk sop buntut yang disajikan di tempat ini memiliki ciri khas pada kuahnya yang kaya akan kaldu sapi, namun tetap jernih dan segar.</p>
+                        <p class="card-text">Harga : Rp 50.000 | Per Porsi</p>
+                        <p class="card-text">Nama Owner : - </p>
+                        <p class="card-text">Alamat : Jl. KH Mukmin No.67, Kapasan, Sidokare, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61217</p>
+                        <p class="card-text">Jam Buka : Setiap Hari 07.00-21.00 WIB</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="https://wa.me/6289515524051"><button type="button" class="btn btn-outline-success">Whatsapp</button></a>
+                            <a href="https://goo.gl/maps/axLdX3y1VeUdXh6r9"><button type="button" class="btn btn-outline-primary">Dapatkan Arah</button></a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- end modal -->
+
+
+        <!-- Footer -->
+        <footer id="footer" class="footer bg-dark">
+          <div class="container pt-5 " id="bgnfooter">
+            <div class="row ">
+              <div class="col-md-4 col-sm-6 mb-3 text-white">
+                    <h4 class="fjudul">Our Contact</h4>
+                    <p>
+                      Jl. Arjuna Ds.Manokwari <br> Kec.Gedangan Sidoarjo
+                    <br>
+                      (+62) 456-789 - 1255-12584 
+                    <br>
+                      email@domainname.com
+                    </p>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-3 text-white">
+                    <h4 class="fjudul">Our Location</h4>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <p>
+                          Porong<br>
+                          Tanggulangin<br>
+                          Candi<br>
+                          Sidoarjo<br>
+                        </p>
+                      </div>
+                      <div class="col-sm-4">
+                        <p>
+                          Buduran<br>
+                          Gedangan<br>
+                          Waru<br>
+                          Sedati<br>
+                        </p>
+                      </div>
+                      <div class="col-sm-4">
+                        <p>
+                          Taman<br>
+                          Sukodono<br>
+                          Krian<br>
+                          Prambon<br>
+                        </p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-3 text-white">
+                <h4 class="fjudul">Our Social Media</h4>
+                  <div class="social-links">
+                    <a href="" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="line"><i class="bi bi-line"></i></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="container bg-dark">
+            <div class="copyright text-white text-center">
+              <strong>Copyright &copy; 2023 - ShanGuh| All Rights Reserved.</strong>
+            </div>
+          </div>
+        </footer>
+        <!-- end footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
